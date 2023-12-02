@@ -3,6 +3,7 @@ import {View} from 'react-native';
 import LittleLemonHeader from './components/LittleLemonHeader';
 import WelcomeScreen from './WelcomeScreen';
 import MenuItem from './components/MenuItem';
+import FeedbackForm from './components/FeedbackForm';
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
       }}
     >
       <LittleLemonHeader />
-      <MenuItem />
+      <FeedbackForm />
       <StatusBar style='auto' />
     </View>
   );

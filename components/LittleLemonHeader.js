@@ -18,7 +18,6 @@ const LittleLemonHeader = () => {
         }}
         numberOfLines={3}
       >
-        Welcome to
         <Text
           style={{
             fontWeight: 'bold',
