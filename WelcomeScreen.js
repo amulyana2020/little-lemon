@@ -1,11 +1,15 @@
-import {View, Text} from 'react-native';
+import {
+  View,
+  Text,
+  ScrollView,
+} from 'react-native';
 
 const WelcomeScreen = () => {
   return (
-    <View style={{flex: 0.7}}>
+    <ScrollView style={{flex: 0.6}}>
       <Text
         style={{
-          fontSize: 24,
+          fontSize: 48,
           color: 'white',
           padding: 20,
         }}
@@ -16,7 +20,7 @@ const WelcomeScreen = () => {
         environment. We would love to hear more
         about your experience with us!
       </Text>
-    </View>
+    </ScrollView>
   );
 };
 

@@ -4,7 +4,7 @@ const LittleLemonFooter = () => {
   return (
     <View
       style={{
-        flex: 0.1,
+        flex: 0.2,
         backgroundColor: '#F4CE14',
         justifyContent: 'center',
         alignItems: 'center',
