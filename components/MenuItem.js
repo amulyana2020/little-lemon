@@ -100,12 +100,41 @@ const MenuItem = () => {
       </Text>
     </View>
   );
+
+  const Header = () => {
+    return (
+      <Text
+        style={{
+          color: 'white',
+          fontSize: 24,
+          marginBottom: 20,
+        }}
+      >
+        Menu Items
+      </Text>
+    );
+  };
+  const Footer = () => {
+    return (
+      <Text
+        style={{
+          color: 'white',
+          fontSize: 24,
+          marginTop: 20,
+        }}
+      >
+        Enjoy the meals
+      </Text>
+    );
+  };
   return (
-    <View style={{flex: 0.6, padding: 30}}>
+    <View style={{flex: 0.55, padding: 30}}>
       <FlatList
         data={menuItemsToDisplay}
         renderItem={renderItem}
         keyExtractor={item => item.id}
+        ListHeaderComponent={Header}
+        ListFooterComponent={Footer}
       />
     </View>
   );
