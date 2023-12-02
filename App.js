@@ -14,7 +14,7 @@ export default function App() {
       }}
     >
       <LittleLemonHeader />
-      <WelcomeScreen />
+      <MenuItem />
       <LittleLemonFooter />
       <StatusBar style='auto' />
     </View>
